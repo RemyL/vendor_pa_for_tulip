@@ -1,0 +1,62 @@
+[
+  {
+    "remote":      "github",
+    "repository":  "RemyL/android_device_xiaomi_tulip",
+    "target_path": "device/xiaomi/tulip",
+    "revision":    "quartz"
+  },
+  {
+    "remote":      "github",
+    "repository":  "RemyL/android_vendor_xiaomi_tulip",
+    "target_path": "vendor/xiaomi",
+    "revision":    "quartz"
+  },
+  {
+    "remote":      "github",
+    "repository":  "RemyL/android_kernel_xiaomi_tulip",
+    "target_path": "kernel/xiaomi/tulip",
+    "revision":    "android-10"
+  },
+  {
+    "remote":       "aospa",
+    "repository":   "AOSPA/android_hardware_qcom_audio",
+    "target_path":  "vendor/qcom/opensource/audio-hal/primary-hal",
+    "revision":     "quartz-8998"
+  },
+  {
+    "remote":       "aospa",
+    "repository":   "AOSPA/android_hardware_qcom_display",
+    "target_path":  "hardware/qcom/display",
+    "revision":     "quartz-8998"
+  },
+  {
+    "remote":       "aospa",
+    "repository":   "AOSPA/android_hardware_qcom_media",
+    "target_path":  "hardware/qcom/media",
+    "revision":     "quartz-8998"
+  },
+  {
+    "remote":       "aospa",
+    "repository":   "AOSPA/android_vendor_qcom-opensource_fm-commonsys",
+    "target_path":  "vendor/qcom/opensource/fm-commonsys",
+    "revision":     "quartz"
+  },
+  {
+    "remote":       "github",
+    "repository":   "LineageOS/android_external_ant-wireless_antradio-library",
+    "target_path":  "external/ant-wireless/antradio-library",
+    "revision":     "lineage-17.1"
+  },
+  {
+    "remote":       "github",
+    "repository":   "RemyL/proprietary_vendor_qcom_common",
+    "target_path":  "vendor/qcom/common",
+    "revision":     "quartz"
+  },
+  {
+    "remote":       "aospa",
+    "repository":   "AOSPA/android_device_qcom_common",
+    "target_path":  "device/qcom/common",
+    "revision":     "quartz"
+  }
+]
