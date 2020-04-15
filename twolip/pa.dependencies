@@ -20,7 +20,7 @@
   {
     "remote":      "github",
     "repository":  "RemyL/android_kernel_xiaomi_tulip",
-    "target_path": "kernel/xiaomi/tulip",
+    "target_path": "kernel/xiaomi/sdm660",
     "revision":    "android-10"
   },
   {
