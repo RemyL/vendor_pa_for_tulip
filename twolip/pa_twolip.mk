@@ -30,6 +30,9 @@ $(call inherit-product, device/xiaomi/twolip/device.mk)
 # Bootanimation
 TARGET_BOOT_ANIMATION_RES := 1080
 
+# No GAPPS
+TARGET_DISABLES_GAPPS := true
+
 # Device identifier. This must come after all inclusions
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := tulip
