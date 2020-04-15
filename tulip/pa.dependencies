@@ -1,15 +1,21 @@
 [
   {
     "remote":      "github",
-    "repository":  "RemyL/android_device_xiaomi_tulip",
-    "target_path": "device/xiaomi/tulip",
-    "revision":    "quartz"
+    "repository":  "RemyL/android_device_xiaomi_twolip",
+    "target_path": "device/xiaomi/twolip",
+    "revision":    "staging/quartz"
   },
   {
     "remote":      "github",
-    "repository":  "RemyL/android_vendor_xiaomi_tulip",
+    "repository":  "RemyL/android_device_xiaomi_sdm660-common",
+    "target_path": "device/xiaomi/sdm660-common",
+    "revision":    "staging/quartz"
+  },
+  {
+    "remote":      "github",
+    "repository":  "RemyL/proprietary_vendor_xiaomi",
     "target_path": "vendor/xiaomi",
-    "revision":    "quartz"
+    "revision":    "staging/quartz"
   },
   {
     "remote":      "github",
@@ -43,12 +49,6 @@
   },
   {
     "remote":       "github",
-    "repository":   "LineageOS/android_external_ant-wireless_antradio-library",
-    "target_path":  "external/ant-wireless/antradio-library",
-    "revision":     "lineage-17.1"
-  },
-  {
-    "remote":       "github",
     "repository":   "RemyL/proprietary_vendor_qcom_common",
     "target_path":  "vendor/qcom/common",
     "revision":     "quartz"
@@ -58,5 +58,11 @@
     "repository":   "AOSPA/android_device_qcom_common",
     "target_path":  "device/qcom/common",
     "revision":     "quartz"
+  },
+  {
+    "remote":       "aospa",
+    "repository":   "AOSPA/android_packages_apps_Bluetooth",
+    "target_path":  "packages/apps/Bluetooth",
+    "revision":     "quartz-dev"
   }
 ]
