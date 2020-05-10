@@ -15,20 +15,27 @@
 
 # CAF
 PRODUCT_MAKEFILES += \
+    $(LOCAL_DIR)/A6020/pa_A6020.mk \
     $(LOCAL_DIR)/beryllium/pa_beryllium.mk \
     $(LOCAL_DIR)/cepheus/pa_cepheus.mk \
+    $(LOCAL_DIR)/chiron/pa_chiron.mk \
     $(LOCAL_DIR)/davinci/pa_davinci.mk \
     $(LOCAL_DIR)/dipper/pa_dipper.mk \
     $(LOCAL_DIR)/mata/pa_mata.mk \
     $(LOCAL_DIR)/oneplus3/pa_oneplus3.mk \
+    $(LOCAL_DIR)/oneplus5/pa_oneplus5.mk \
     $(LOCAL_DIR)/oneplus6/pa_oneplus6.mk \
+    $(LOCAL_DIR)/oneplus7/pa_oneplus7.mk \
     $(LOCAL_DIR)/oneplus7pro/pa_oneplus7pro.mk \
+    $(LOCAL_DIR)/oneplus7t/pa_oneplus7t.mk \
     $(LOCAL_DIR)/oneplus7tpro/pa_oneplus7tpro.mk \
     $(LOCAL_DIR)/polaris/pa_polaris.mk \
+    $(LOCAL_DIR)/rolex/pa_rolex.mk \
     $(LOCAL_DIR)/rosy/pa_rosy.mk \
     $(LOCAL_DIR)/sagit/pa_sagit.mk \
+    $(LOCAL_DIR)/X00TD/pa_X00TD.mk \
     $(LOCAL_DIR)/X01BD/pa_X01BD.mk \
-    $(LOCAL_DIR)/tulip/pa_tulip.mk
+    $(LOCAL_DIR)/twolip/pa_twolip.mk
 
 # SONY OpenDevices
 # Loire 8956
@@ -44,8 +51,10 @@ PRODUCT_MAKEFILES += \
 
 # Lunch targets
 COMMON_LUNCH_CHOICES += \
+    pa_A6020-userdebug \
     pa_beryllium-userdebug \
     pa_cepheus-userdebug \
+    pa_chiron-userdebug \
     pa_davinci-userdebug \
     pa_dipper-userdebug \
     pa_dora-userdebug \
@@ -55,11 +64,15 @@ COMMON_LUNCH_CHOICES += \
     pa_mata-userdebug \
     pa_oneplus3-userdebug \
     pa_oneplus6-userdebug \
+    pa_oneplus7-userdebug \
     pa_oneplus7pro-userdebug \
+    pa_oneplus7t-userdebug \
     pa_oneplus7tpro-userdebug \
     pa_polaris-userdebug \
+    pa_rolex-userdebug \
     pa_rosy-userdebug \
     pa_sagit-userdebug \
     pa_suzu-userdebug \
+    pa_X00TD-userdebug \
     pa_X01BD-userdebug \
-    pa_tulip-userdebug
+    pa_twolip-userdebug

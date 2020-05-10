@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-ifeq (pa_tulip,$(TARGET_PRODUCT))
+ifeq (pa_twolip,$(TARGET_PRODUCT))
 
 # Inherit some common aosp stuff.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
@@ -35,9 +35,9 @@ TARGET_DISABLES_GAPPS := true
 
 # Device identifier. This must come after all inclusions
 PRODUCT_BRAND := Xiaomi
-PRODUCT_DEVICE := tulip
+PRODUCT_DEVICE := twolip
 PRODUCT_MANUFACTURER := Xiaomi
-PRODUCT_NAME := pa_tulip
+PRODUCT_NAME := pa_twolip
 PRODUCT_MODEL := Redmi Note 6 Pro
 
 PRODUCT_BUILD_PROP_OVERRIDES += \

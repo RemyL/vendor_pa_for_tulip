@@ -19,9 +19,9 @@
   },
   {
     "remote":      "github",
-    "repository":  "RemyL/android_kernel_xiaomi_tulip",
+    "repository":  "LineageOS/android_kernel_xiaomi_sdm660",
     "target_path": "kernel/xiaomi/sdm660",
-    "revision":    "android-10"
+    "revision":    "lineage-17.1"
   },
   {
     "remote":       "aospa",
