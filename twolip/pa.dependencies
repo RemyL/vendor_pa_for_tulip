@@ -48,8 +48,8 @@
     "revision":     "quartz"
   },
   {
-    "remote":       "github",
-    "repository":   "RemyL/proprietary_vendor_qcom_common",
+    "remote":       "blobs",
+    "repository":   "proprietary_vendor_qcom_common",
     "target_path":  "vendor/qcom/common",
     "revision":     "quartz"
   },
